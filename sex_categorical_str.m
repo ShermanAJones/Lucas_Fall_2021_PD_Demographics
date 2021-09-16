@@ -1,7 +1,9 @@
 function out = sex_categorical_str(in)
 % function out = categorical_str(in)
 % 
-
+%sets the class of in to categorical before setting the order of categories
+%to female then male.
+%Returns the number of females over the number of males
 % make sure categories of variable are set to your liking prior to calling
 % this method.
 if class(in) ~= 'categorical'
